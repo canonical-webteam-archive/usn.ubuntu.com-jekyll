@@ -10,9 +10,7 @@ title: "Ubuntu security notices"
       <p>You can also view the latest notices by subscribing to the <a href="/usn/rss.xml">RSS <img src="https://assets.ubuntu.com/v1/f727d471-feed.png" alt=""></a> or the <a href="/usn/atom.xml">Atom <img src="https://assets.ubuntu.com/v1/f727d471-feed.png" alt=""></a> feeds.</p>
     </div>
     <div class="col-4">
-      <div style="overflow: hidden;">
-        <img class="u-image-position--top u-hidden--small" src="{{ site.assets_path }}99d49a7d-padlock-chain.png" alt="" style="top: -65%; z-index: -1;" />
-      </div>
+      <img class="u-image-position--top u-hidden--small" src="{{ site.assets_path }}99d49a7d-padlock-chain.png" alt="" style="top: -10%; z-index: -1;" />
     </div>
   </div>
 </section>
