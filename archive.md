@@ -15,7 +15,7 @@ permalink: /archives/index.html
     <div class="col-8">
 
 
-    {% for cat in site.categories %}
+    {% for cat in site.categories reversed %}
         {% capture shortname %}{{ cat[0] | replace: '.', '-'}}{% endcapture %}
 
       <!-- {{ cat[0] }} -->

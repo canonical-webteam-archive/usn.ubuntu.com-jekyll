@@ -10,7 +10,7 @@ layout: default
 
       <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-    {{ post.excerpt | remove:'<div class="letter">' | textilize }}
+    {{ post.excerpt | markdownify  }}
 
     <p class="posted u-full-width">{{ post.date | date: "%-d %B %Y" }} | {{ post.categories | join: ', ' }}</p>
 

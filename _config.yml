@@ -40,6 +40,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+feed:
+  path: usn/atom.xml
+
 jekyll-archives:
   enabled:
     - year

@@ -24,7 +24,7 @@ title: "Ubuntu security notices"
       <!-- eight main stories -->
       {% for post in site.posts limit: 8 %}
       <h3 class="p-heading--four"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
+      {{ post.excerpt | markdownify }}
       <p>{{ post.date | date: "%-d %B %Y" }} | {{ post.categories | join: ', ' }}</p>
       {% endfor %}
       <!-- /end eight main stories -->
