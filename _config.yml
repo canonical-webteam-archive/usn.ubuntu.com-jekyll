@@ -39,6 +39,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 feed:
   path: usn/atom.xml
